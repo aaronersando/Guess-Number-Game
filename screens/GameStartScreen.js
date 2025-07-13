@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     marginTop: 100,
     padding: 16,
     marginHorizontal: 24,
-    backgroundColor: "#3b0303ff",
+    backgroundColor: "#3b0303c9",
     borderRadius: 8,
     elevation: 4,
     shadowColor: "#000",

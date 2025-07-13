@@ -10,7 +10,7 @@ export default function PrimaryButton({ children }) {
             ? [styles.buttonInnerContainer, styles.pressed]
             : styles.buttonInnerContainer
         }
-        android_ripple={{ color: "#58012eff" }}
+        android_ripple={{ color: "#580201ff" }}
       >
         <Text style={styles.buttonText}>{children}</Text>
       </Pressable>
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   buttonInnerContainer: {
     paddingVertical: 8,
     paddingHorizontal: 16,
-    backgroundColor: "#650606ff",
+    backgroundColor: "#650606cd",
     elevation: 2,
   },
   buttonOuterContainer: {
