@@ -68,6 +68,7 @@ const styles = StyleSheet.create({
     padding: 24,
     justifyContent: "center",
     alignItems: "center",
+    marginTop: 30,
   },
   imageContainer: {
     overflow: "hidden",
