@@ -11,8 +11,9 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 24,
     fontFamily: "open-sans-bold",
-    // fontWeight: "bold",
     borderWidth: 2,
     borderColor: "white",
+    maxWidth: "80%",
+    width: 300,
   },
 });
