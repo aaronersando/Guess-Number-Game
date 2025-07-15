@@ -31,6 +31,11 @@ export default function App() {
     setIsGameOver(true);
   }
 
+  function handleNewGameStart() {
+    setIsGameOver(true);
+    setUserNumber(null);
+  }
+
   let screen = <GameStartScreen onPickedNumber={handlePickedNumber} />;
 
   if (userNumber) {
@@ -38,7 +43,12 @@ export default function App() {
   }
 
   if (isGameOver && userNumber) {
-    screen = <GameOverScreen />;
+    screen = (
+      <GameOverScreen
+        userNumber={userNumber}
+        onNewGameStart={handleNewGameStart}
+      />
+    );
   }
 
   return (
