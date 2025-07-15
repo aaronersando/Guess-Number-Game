@@ -28,7 +28,7 @@ export default function GameScreen({ userNumber, onGameOver }) {
 
   useEffect(() => {
     if (currentGuess === userNumber) {
-      onGameOver();
+      onGameOver(guessNumbers.length);
     }
   }, [currentGuess, userNumber, onGameOver]);
 
@@ -113,5 +113,7 @@ const styles = StyleSheet.create({
   },
   listContainer: {
     marginTop: 14,
+    flex: 1,
+    padding: 16,
   },
 });
