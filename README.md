@@ -10,15 +10,15 @@ A simple and fun mobile game built with React Native and Expo. The app challenge
 
 **Start Screen:**
 
-![Start Screen](./screenshots/start_screen.png)
+![Start Screen](./assets/Start_Screen.png)
 
 **Game Screen:**
 
-![Game Screen](./screenshots/game_screen.png)
+![Game Screen](./assets/Game_Screen.png)
 
 **Game Over Screen:**
 
-![Game Over Screen](./screenshots/gameover_screen.png)
+![Game Over Screen](./assets/GameOver_Screen.png)
 
 ---
 
