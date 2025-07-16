@@ -89,7 +89,7 @@ export default function GameScreen({ userNumber, onGameOver }) {
     </>
   );
 
-  if (width > 400) {
+  if (width > 450) {
     content = (
       <>
         <View style={styles.wideButtonContainer}>
